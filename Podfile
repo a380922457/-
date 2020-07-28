@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform:ios,'13.0'
-target '豆瓣' do
+target 'douban' do
 use_frameworks!
     pod 'SnapKit'
     pod 'Kingfisher'

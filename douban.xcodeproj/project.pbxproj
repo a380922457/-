@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		728A55CE36947D3E62019C41 /* Pods_douban.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F77869AACFB989CC4CF8F50 /* Pods_douban.framework */; };
 		CB40AA1A24CD467A0082F560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA1924CD467A0082F560 /* AppDelegate.swift */; };
 		CB40AA1C24CD467A0082F560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA1B24CD467A0082F560 /* SceneDelegate.swift */; };
 		CB40AA2324CD467A0082F560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB40AA2224CD467A0082F560 /* Assets.xcassets */; };
@@ -33,11 +34,12 @@
 		CB40AA7824CFCB9B0082F560 /* HMGoLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB40AA7624CFCB9B0082F560 /* HMGoLoginController.xib */; };
 		CB40AA7B24D006450082F560 /* HMHomeRecController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7A24D006450082F560 /* HMHomeRecController.swift */; };
 		CB40AA7E24D0077B0082F560 /* HMHomeRecAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7D24D0077B0082F560 /* HMHomeRecAPI.swift */; };
-		EE0911A0E7106CA62A4DA7C8 /* Pods___.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7958C4473FD49C9233085F /* Pods___.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		94CAD2D689E731D597B1B078 /* Pods-豆瓣.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-豆瓣.release.xcconfig"; path = "Target Support Files/Pods-豆瓣/Pods-豆瓣.release.xcconfig"; sourceTree = "<group>"; };
+		0F77869AACFB989CC4CF8F50 /* Pods_douban.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_douban.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843D97E6C747044D47C3A8C /* Pods-douban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douban.release.xcconfig"; path = "Target Support Files/Pods-douban/Pods-douban.release.xcconfig"; sourceTree = "<group>"; };
+		A59AFC09FE5EF4187968FBB4 /* Pods-douban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douban.debug.xcconfig"; path = "Target Support Files/Pods-douban/Pods-douban.debug.xcconfig"; sourceTree = "<group>"; };
 		CB40AA1624CD467A0082F560 /* 豆瓣.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "豆瓣.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB40AA1924CD467A0082F560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB40AA1B24CD467A0082F560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,8 +68,6 @@
 		CB40AA7624CFCB9B0082F560 /* HMGoLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMGoLoginController.xib; sourceTree = "<group>"; };
 		CB40AA7A24D006450082F560 /* HMHomeRecController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeRecController.swift; sourceTree = "<group>"; };
 		CB40AA7D24D0077B0082F560 /* HMHomeRecAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeRecAPI.swift; sourceTree = "<group>"; };
-		E934CBA95FB6DD7F19111601 /* Pods-豆瓣.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-豆瓣.debug.xcconfig"; path = "Target Support Files/Pods-豆瓣/Pods-豆瓣.debug.xcconfig"; sourceTree = "<group>"; };
-		EB7958C4473FD49C9233085F /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,38 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0911A0E7106CA62A4DA7C8 /* Pods___.framework in Frameworks */,
+				728A55CE36947D3E62019C41 /* Pods_douban.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27D6025E59BAE6BE956B6E25 /* Pods */ = {
+		B0F89EB1FA0D5737C7AE0DDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E934CBA95FB6DD7F19111601 /* Pods-豆瓣.debug.xcconfig */,
-				94CAD2D689E731D597B1B078 /* Pods-豆瓣.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		4D86DBF4729277160561B9BD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB7958C4473FD49C9233085F /* Pods___.framework */,
+				0F77869AACFB989CC4CF8F50 /* Pods_douban.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F9784C99653C9EAF0AFE84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A59AFC09FE5EF4187968FBB4 /* Pods-douban.debug.xcconfig */,
+				4843D97E6C747044D47C3A8C /* Pods-douban.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		CB40AA0D24CD467A0082F560 = {
 			isa = PBXGroup;
 			children = (
-				CB40AA1824CD467A0082F560 /* 豆瓣 */,
+				CB40AA1824CD467A0082F560 /* douban */,
 				CB40AA1724CD467A0082F560 /* Products */,
-				27D6025E59BAE6BE956B6E25 /* Pods */,
-				4D86DBF4729277160561B9BD /* Frameworks */,
+				C7F9784C99653C9EAF0AFE84 /* Pods */,
+				B0F89EB1FA0D5737C7AE0DDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +117,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB40AA1824CD467A0082F560 /* 豆瓣 */ = {
+		CB40AA1824CD467A0082F560 /* douban */ = {
 			isa = PBXGroup;
 			children = (
 				CB40AA7924D006060082F560 /* HMPageVIew */,
@@ -133,7 +132,7 @@
 				CB40AA2424CD467A0082F560 /* LaunchScreen.storyboard */,
 				CB40AA2724CD467A0082F560 /* Info.plist */,
 			);
-			path = "豆瓣";
+			path = douban;
 			sourceTree = "<group>";
 		};
 		CB40AA3E24CD57300082F560 /* 书影音 */ = {
@@ -387,9 +386,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB40AA1524CD467A0082F560 /* 豆瓣 */ = {
+		CB40AA1524CD467A0082F560 /* douban */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB40AA2A24CD467A0082F560 /* Build configuration list for PBXNativeTarget "豆瓣" */;
+			buildConfigurationList = CB40AA2A24CD467A0082F560 /* Build configuration list for PBXNativeTarget "douban" */;
 			buildPhases = (
 				32C82FC2F8D6A72DE4D8DBEA /* [CP] Check Pods Manifest.lock */,
 				CB40AA1224CD467A0082F560 /* Sources */,
@@ -401,7 +400,7 @@
 			);
 			dependencies = (
 			);
-			name = "豆瓣";
+			name = douban;
 			productName = "豆瓣";
 			productReference = CB40AA1624CD467A0082F560 /* 豆瓣.app */;
 			productType = "com.apple.product-type.application";
@@ -421,7 +420,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB40AA1124CD467A0082F560 /* Build configuration list for PBXProject "豆瓣" */;
+			buildConfigurationList = CB40AA1124CD467A0082F560 /* Build configuration list for PBXProject "douban" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -434,7 +433,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB40AA1524CD467A0082F560 /* 豆瓣 */,
+				CB40AA1524CD467A0082F560 /* douban */,
 			);
 		};
 /* End PBXProject section */
@@ -469,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-豆瓣-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-douban-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -482,15 +481,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-豆瓣/Pods-豆瓣-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-douban/Pods-douban-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-豆瓣/Pods-豆瓣-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-douban/Pods-douban-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-豆瓣/Pods-豆瓣-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-douban/Pods-douban-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -655,17 +654,17 @@
 		};
 		CB40AA2B24CD467A0082F560 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E934CBA95FB6DD7F19111601 /* Pods-豆瓣.debug.xcconfig */;
+			baseConfigurationReference = A59AFC09FE5EF4187968FBB4 /* Pods-douban.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "豆瓣/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/douban/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lhm.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "豆瓣";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -673,17 +672,17 @@
 		};
 		CB40AA2C24CD467A0082F560 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94CAD2D689E731D597B1B078 /* Pods-豆瓣.release.xcconfig */;
+			baseConfigurationReference = 4843D97E6C747044D47C3A8C /* Pods-douban.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "豆瓣/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/douban/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lhm.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "豆瓣";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -692,7 +691,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB40AA1124CD467A0082F560 /* Build configuration list for PBXProject "豆瓣" */ = {
+		CB40AA1124CD467A0082F560 /* Build configuration list for PBXProject "douban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB40AA2824CD467A0082F560 /* Debug */,
@@ -701,7 +700,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB40AA2A24CD467A0082F560 /* Build configuration list for PBXNativeTarget "豆瓣" */ = {
+		CB40AA2A24CD467A0082F560 /* Build configuration list for PBXNativeTarget "douban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB40AA2B24CD467A0082F560 /* Debug */,

@@ -11,7 +11,7 @@ import Moya
 import HandyJSON
 
 /// 首页推荐主接口
-let HMHomeRecProvider = MoyaProvider<FMRecommendAPI>()
+let HMHomeRecProvider = MoyaProvider<HMHomeRecAPI>()
 
 enum HMHomeRecAPI {
     case recommendList//推荐列表
