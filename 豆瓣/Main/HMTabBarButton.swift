@@ -35,7 +35,7 @@ class HMTabBarButton: UIButton {
         
         setTitle(item.title, for: .normal)
         setTitleColor(.black, for: .normal)
-        setTitleColor(UIColor.init(r: 103, g: 185, b: 98), for: .selected)
+        setTitleColor(globalColor, for: .selected)
         titleLabel?.font = UIFont.systemFont(ofSize: 13)
         titleLabel?.textAlignment = .center
         

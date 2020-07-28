@@ -22,9 +22,22 @@
 		CB40AA6024CD72DB0082F560 /* HMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA5F24CD72DB0082F560 /* HMTabBar.swift */; };
 		CB40AA6224CEA6660082F560 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA6124CEA6660082F560 /* MyExtension.swift */; };
 		CB40AA6624CEA8020082F560 /* HMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA6524CEA8020082F560 /* HMNavigationController.swift */; };
+		CB40AA6824CEAB6D0082F560 /* HMNavSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA6724CEAB6D0082F560 /* HMNavSearchView.swift */; };
+		CB40AA6A24CEAB880082F560 /* HMNavSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB40AA6924CEAB880082F560 /* HMNavSearchView.xib */; };
+		CB40AA6C24CFC4490082F560 /* HMPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA6B24CFC4490082F560 /* HMPageView.swift */; };
+		CB40AA6E24CFC5560082F560 /* HMPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA6D24CFC5560082F560 /* HMPageStyle.swift */; };
+		CB40AA7024CFC5AF0082F560 /* HMPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA6F24CFC5AF0082F560 /* HMPageTitleView.swift */; };
+		CB40AA7224CFC7150082F560 /* HMPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7124CFC7150082F560 /* HMPageContentView.swift */; };
+		CB40AA7424CFC93C0082F560 /* HMPageCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7324CFC93C0082F560 /* HMPageCollectionViewFlowLayout.swift */; };
+		CB40AA7724CFCB9B0082F560 /* HMGoLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7524CFCB9B0082F560 /* HMGoLoginController.swift */; };
+		CB40AA7824CFCB9B0082F560 /* HMGoLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB40AA7624CFCB9B0082F560 /* HMGoLoginController.xib */; };
+		CB40AA7B24D006450082F560 /* HMHomeRecController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7A24D006450082F560 /* HMHomeRecController.swift */; };
+		CB40AA7E24D0077B0082F560 /* HMHomeRecAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB40AA7D24D0077B0082F560 /* HMHomeRecAPI.swift */; };
+		EE0911A0E7106CA62A4DA7C8 /* Pods___.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7958C4473FD49C9233085F /* Pods___.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94CAD2D689E731D597B1B078 /* Pods-豆瓣.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-豆瓣.release.xcconfig"; path = "Target Support Files/Pods-豆瓣/Pods-豆瓣.release.xcconfig"; sourceTree = "<group>"; };
 		CB40AA1624CD467A0082F560 /* 豆瓣.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "豆瓣.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB40AA1924CD467A0082F560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB40AA1B24CD467A0082F560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +55,19 @@
 		CB40AA5F24CD72DB0082F560 /* HMTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMTabBar.swift; sourceTree = "<group>"; };
 		CB40AA6124CEA6660082F560 /* MyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
 		CB40AA6524CEA8020082F560 /* HMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNavigationController.swift; sourceTree = "<group>"; };
+		CB40AA6724CEAB6D0082F560 /* HMNavSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNavSearchView.swift; sourceTree = "<group>"; };
+		CB40AA6924CEAB880082F560 /* HMNavSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMNavSearchView.xib; sourceTree = "<group>"; };
+		CB40AA6B24CFC4490082F560 /* HMPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMPageView.swift; sourceTree = "<group>"; };
+		CB40AA6D24CFC5560082F560 /* HMPageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMPageStyle.swift; sourceTree = "<group>"; };
+		CB40AA6F24CFC5AF0082F560 /* HMPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMPageTitleView.swift; sourceTree = "<group>"; };
+		CB40AA7124CFC7150082F560 /* HMPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMPageContentView.swift; sourceTree = "<group>"; };
+		CB40AA7324CFC93C0082F560 /* HMPageCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMPageCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CB40AA7524CFCB9B0082F560 /* HMGoLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMGoLoginController.swift; sourceTree = "<group>"; };
+		CB40AA7624CFCB9B0082F560 /* HMGoLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HMGoLoginController.xib; sourceTree = "<group>"; };
+		CB40AA7A24D006450082F560 /* HMHomeRecController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeRecController.swift; sourceTree = "<group>"; };
+		CB40AA7D24D0077B0082F560 /* HMHomeRecAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMHomeRecAPI.swift; sourceTree = "<group>"; };
+		E934CBA95FB6DD7F19111601 /* Pods-豆瓣.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-豆瓣.debug.xcconfig"; path = "Target Support Files/Pods-豆瓣/Pods-豆瓣.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7958C4473FD49C9233085F /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +75,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0911A0E7106CA62A4DA7C8 /* Pods___.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D6025E59BAE6BE956B6E25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E934CBA95FB6DD7F19111601 /* Pods-豆瓣.debug.xcconfig */,
+				94CAD2D689E731D597B1B078 /* Pods-豆瓣.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D86DBF4729277160561B9BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB7958C4473FD49C9233085F /* Pods___.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB40AA0D24CD467A0082F560 = {
 			isa = PBXGroup;
 			children = (
 				CB40AA1824CD467A0082F560 /* 豆瓣 */,
 				CB40AA1724CD467A0082F560 /* Products */,
+				27D6025E59BAE6BE956B6E25 /* Pods */,
+				4D86DBF4729277160561B9BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +121,7 @@
 		CB40AA1824CD467A0082F560 /* 豆瓣 */ = {
 			isa = PBXGroup;
 			children = (
+				CB40AA7924D006060082F560 /* HMPageVIew */,
 				CB40AA6424CEA77A0082F560 /* Other */,
 				CB40AA6324CEA7680082F560 /* Main */,
 				CB40AA4824CD57300082F560 /* 首页 */,
@@ -171,6 +219,7 @@
 		CB40AA4824CD57300082F560 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				CB40AA7C24D007360082F560 /* API */,
 				CB40AA4924CD57300082F560 /* ViewModels */,
 				CB40AA4A24CD57300082F560 /* Classes */,
 				CB40AA4B24CD57300082F560 /* Controllers */,
@@ -197,6 +246,9 @@
 			isa = PBXGroup;
 			children = (
 				CB40AA3524CD566F0082F560 /* HomeController.swift */,
+				CB40AA7524CFCB9B0082F560 /* HMGoLoginController.swift */,
+				CB40AA7624CFCB9B0082F560 /* HMGoLoginController.xib */,
+				CB40AA7A24D006450082F560 /* HMHomeRecController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,6 +256,8 @@
 		CB40AA4C24CD57300082F560 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CB40AA6724CEAB6D0082F560 /* HMNavSearchView.swift */,
+				CB40AA6924CEAB880082F560 /* HMNavSearchView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +364,26 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		CB40AA7924D006060082F560 /* HMPageVIew */ = {
+			isa = PBXGroup;
+			children = (
+				CB40AA6F24CFC5AF0082F560 /* HMPageTitleView.swift */,
+				CB40AA6B24CFC4490082F560 /* HMPageView.swift */,
+				CB40AA7124CFC7150082F560 /* HMPageContentView.swift */,
+				CB40AA7324CFC93C0082F560 /* HMPageCollectionViewFlowLayout.swift */,
+				CB40AA6D24CFC5560082F560 /* HMPageStyle.swift */,
+			);
+			path = HMPageVIew;
+			sourceTree = "<group>";
+		};
+		CB40AA7C24D007360082F560 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CB40AA7D24D0077B0082F560 /* HMHomeRecAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -317,9 +391,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB40AA2A24CD467A0082F560 /* Build configuration list for PBXNativeTarget "豆瓣" */;
 			buildPhases = (
+				32C82FC2F8D6A72DE4D8DBEA /* [CP] Check Pods Manifest.lock */,
 				CB40AA1224CD467A0082F560 /* Sources */,
 				CB40AA1324CD467A0082F560 /* Frameworks */,
 				CB40AA1424CD467A0082F560 /* Resources */,
+				F5DC8E89F608CF8A7E9BCC28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -368,6 +444,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB40AA7824CFCB9B0082F560 /* HMGoLoginController.xib in Resources */,
+				CB40AA6A24CEAB880082F560 /* HMNavSearchView.xib in Resources */,
 				CB40AA2624CD467A0082F560 /* LaunchScreen.storyboard in Resources */,
 				CB40AA2324CD467A0082F560 /* Assets.xcassets in Resources */,
 			);
@@ -375,24 +453,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32C82FC2F8D6A72DE4D8DBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-豆瓣-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DC8E89F608CF8A7E9BCC28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-豆瓣/Pods-豆瓣-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-豆瓣/Pods-豆瓣-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-豆瓣/Pods-豆瓣-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB40AA1224CD467A0082F560 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB40AA3424CD56600082F560 /* MineController.swift in Sources */,
+				CB40AA6C24CFC4490082F560 /* HMPageView.swift in Sources */,
 				CB40AA3824CD567A0082F560 /* MarketController.swift in Sources */,
+				CB40AA7E24D0077B0082F560 /* HMHomeRecAPI.swift in Sources */,
 				CB40AA3224CD56560082F560 /* SubjectsController.swift in Sources */,
+				CB40AA7024CFC5AF0082F560 /* HMPageTitleView.swift in Sources */,
 				CB40AA5E24CD68F20082F560 /* HMTabBarButton.swift in Sources */,
 				CB40AA5A24CD67240082F560 /* HMTabbarController.swift in Sources */,
+				CB40AA6824CEAB6D0082F560 /* HMNavSearchView.swift in Sources */,
+				CB40AA7424CFC93C0082F560 /* HMPageCollectionViewFlowLayout.swift in Sources */,
 				CB40AA3624CD566F0082F560 /* HomeController.swift in Sources */,
 				CB40AA2E24CD54E00082F560 /* const.swift in Sources */,
 				CB40AA3024CD56480082F560 /* GroupController.swift in Sources */,
+				CB40AA7724CFCB9B0082F560 /* HMGoLoginController.swift in Sources */,
 				CB40AA6024CD72DB0082F560 /* HMTabBar.swift in Sources */,
+				CB40AA7B24D006450082F560 /* HMHomeRecController.swift in Sources */,
 				CB40AA1A24CD467A0082F560 /* AppDelegate.swift in Sources */,
 				CB40AA6624CEA8020082F560 /* HMNavigationController.swift in Sources */,
+				CB40AA7224CFC7150082F560 /* HMPageContentView.swift in Sources */,
 				CB40AA1C24CD467A0082F560 /* SceneDelegate.swift in Sources */,
 				CB40AA6224CEA6660082F560 /* MyExtension.swift in Sources */,
+				CB40AA6E24CFC5560082F560 /* HMPageStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +655,7 @@
 		};
 		CB40AA2B24CD467A0082F560 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E934CBA95FB6DD7F19111601 /* Pods-豆瓣.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +673,7 @@
 		};
 		CB40AA2C24CD467A0082F560 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CAD2D689E731D597B1B078 /* Pods-豆瓣.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

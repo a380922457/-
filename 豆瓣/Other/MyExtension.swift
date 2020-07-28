@@ -9,8 +9,20 @@
 import Foundation
 import UIKit
 
+let globalColor = UIColor.init(r: 103, g: 185, b: 98)
+
 extension UIColor{
     convenience init(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1) {
         self.init(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: alpha)
+    }
+}
+
+protocol NibLoadable{
+    
+}
+
+extension NibLoadable where Self : UIView {
+    static func loadFromNib() -> Self {
+        return Bundle.main.loadNibNamed("\(self)", owner: nil, options: nil)?.first as! Self
     }
 }
